@@ -2,7 +2,7 @@ module.exports.config = {
   name: "acp",
   version: "1.0.0",
   hasPermssion: 2,
-  credits: "MAHBUB SHAON",
+  credits: "𝐍𝐎𝐁𝐈𝐓𝐀",
   description: "Make friends via Facebook id",
   commandCategory: "bot id",
   usages: "uid",
