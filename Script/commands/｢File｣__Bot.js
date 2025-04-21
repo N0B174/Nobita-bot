@@ -195,8 +195,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    if ((event.body.toLowerCase() == "tumi ki amake bhalobaso") || (event.body.toLowerCase() == "tmi ki amake vlo basho")) {
      return api.sendMessage("হুম ঝাং আমি তোমাকে রাইতে ভলোপাসি <🥵", threadID);
    };
+  if ((event.body.toLowerCase() == "sinha") || (event.body.toLowerCase() == "সিনহা") || (event.body.toLowerCase() == "চুপ কর") || (event.body.toLowerCase() == "chup kor")) {
+     return api.sendMessage("একটু সম্মান করে কথা বল , এইটা নবিতার শাশুড়ি", threadID);
+  };
 
-   if ((event.body.toLowerCase() == "ami ullash") || (event.body.toLowerCase() == "kire")) {
+   if ((event.body.toLowerCase() == "ami Nobita") || (event.body.toLowerCase() == "kire")) {
      return api.sendMessage("হ্যা বস কেমন আছেন..?☺️", threadID);
    };
   mess = "{name}"
