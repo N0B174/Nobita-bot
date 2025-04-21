@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "self",
 	version: "1.0.5",
 	hasPermssion: 0, 
-	credits: "Mirai Team",
+	credits: "𝐍𝐎𝐁𝐈𝐓𝐀",
 	description: "Manage bot admin",
 	commandCategory: "config",
 	usages: "[list/add/remove] [userID]",
